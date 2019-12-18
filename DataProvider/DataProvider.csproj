@@ -5,6 +5,10 @@
     <ProjectReference Include="..\Models\Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="dapper" Version="2.0.30" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
